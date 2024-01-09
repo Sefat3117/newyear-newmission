@@ -1,0 +1,126 @@
+body {
+  font-family: 'Merriweather', serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* header related styles */
+
+.header-container {
+  max-width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  background-image: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0) 100%),
+    url(../images/Banner\ Image.png);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 16px;
+}
+
+.header-container h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 32px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.header-container h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 72px;
+  font-weight: 900;
+  line-height: 95px;
+  margin-top: 16px;
+}
+
+/* main related styles */
+
+main {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+
+/* how much discount container related styles */
+
+.how-much-discount-container {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  margin: 120px 350px 120px 350px;
+}
+
+.how-much-discount-container h2 {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 88px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.discount-description {
+  color: #f00;
+  text-align: center;
+  font-family: Inter;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 90px 0 15px 0;
+}
+
+.discount-categories {
+  color: #070211;
+  text-align: center;
+  font-family: Inter;
+  font-size: 48px;
+  font-weight: 700;
+  margin: 0 0 40px 0;
+}
+
+.how-much-discount img {
+  width: 800px;
+  height: 500px;
+}
+
+/* schedule related styles */
+
+.schedule-container {
+  height: 480px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1) 0%,
+    rgba(255, 0, 0, 0) 100%
+  );
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #070211;
+  font-family: Inter;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 56px;
+  padding: 100px 300px 120px 300px;
+}
+
+.schedule-pdt {
+  color: #f00;
+}
+
+.btn-primary {
+  height: 70px;
+  width: 200px;
+  padding: 16px 32px;
+  border-radius: 8px;
+  background: #f00;
+  color: #fff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+/* Coming soon Container related styles*/
