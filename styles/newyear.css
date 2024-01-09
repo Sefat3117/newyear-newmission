@@ -236,3 +236,60 @@ main {
   box-sizing: border-box;
   padding: 20px; /* Padding between image and border */
 }
+
+/* holidays sale container related styles */
+
+.holidays-sale-container {
+  height: 733px;
+}
+
+.holiday-sale-content {
+  text-align: center;
+}
+
+.holiday-sale-title {
+  color: #070211;
+  font-family: Inter;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  padding: 0;
+}
+
+.holiday-sale-title2 {
+  color: #070211;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+  padding: 16px 0 28px 0;
+}
+
+.holidays {
+  color: #f00;
+  text-align: center;
+  font-family: Merriweather;
+  font-size: 72px;
+  font-weight: 900;
+}
+
+.holiday-sale-description {
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+  font-family: Inter;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0;
+}
+
+.holiday-sale-photos {
+  position: relative;
+  height: 733px;
+  margin-top: 64px;
+  background-image: url(../images/Group\ 75.png),
+    url(../images/Rectangle\ 2.png), url(../images/Group\ 44.png),
+    url(../images/Rectangle\ 1.png);
+  background-repeat: no-repeat, no-repeat, no-repeat, no-repeat;
+  background-position: 0 20px, bottom center, 750px 100px, 900px 70px;
+  background-size: auto;
+}
